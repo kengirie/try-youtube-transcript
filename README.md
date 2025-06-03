@@ -1,28 +1,8 @@
 # YouTube Transcript API Tutorial
 
-このプロジェクトは、[YouTube Transcript API](https://github.com/trldvix/youtube-transcript-api) ライブラリの使い方を学ぶためのシンプルなチュートリアルです。
-
-## 概要
-
-YouTube Transcript APIは、YouTubeビデオの字幕/トランスクリプトを取得するためのJavaライブラリです。以下の機能をサポートしています：
-
-- ✅ 手動作成された字幕の取得
-- ✅ 自動生成された字幕の取得
-- ✅ プレイリストやチャンネル内の全動画の一括字幕取得
-- ✅ 字幕の翻訳
-- ✅ 字幕のフォーマット変換
-- ✅ 使いやすいAPI
-- ✅ Java 11以上をサポート
-
-## セットアップ
-
-### 前提条件
-- Java 11以上
-- Gradle
+[YouTube Transcript API](https://github.com/trldvix/youtube-transcript-api) の使い方を学ぶためのシンプルなチュートリアル
 
 ### 依存関係
-
-このプロジェクトでは以下の依存関係を使用しています：
 
 ```gradle
 dependencies {
@@ -31,8 +11,6 @@ dependencies {
 ```
 
 ## チュートリアル内容
-
-このチュートリアルでは以下の機能を実演します：
 
 ### 1. 基本的な字幕取得
 ```java
@@ -108,10 +86,6 @@ Available transcripts:
   - English (auto-generated) (en) - Auto-generated
 ```
 
-## 注意事項
-
-⚠️ **警告**: このライブラリは非公式のYouTube APIを使用しているため、いつでも動作しなくなる可能性があります。自己責任でご使用ください。
-
 ## 主要クラス
 
 - `YoutubeTranscriptApi`: メインのAPIクラス
@@ -126,7 +100,3 @@ Available transcripts:
 - [GitHub Repository](https://github.com/trldvix/youtube-transcript-api)
 - [Maven Central](https://search.maven.org/artifact/io.github.thoroldvix/youtube-transcript-api)
 - [JavaDoc](https://thoroldvix.github.io/youtube-transcript-api/javadoc/)
-
-## ライセンス
-
-このチュートリアルプロジェクトはMITライセンスの下で公開されています。
